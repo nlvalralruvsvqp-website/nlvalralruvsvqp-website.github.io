@@ -1,0 +1,24 @@
+# GitHub Pages Configuration
+
+This file tells GitHub Pages to serve the website from the root directory.
+
+## Site Structure
+
+- `index.html` - Main homepage
+- `biz-kimiz.html` - About Us page
+- `amacimiz.html` - Our Mission page
+- `presiyometre.html` - Product page
+- `galeri.html` - Gallery page
+- `politikalar.html` - Policies page
+- `iletisime-gecin.html` - Contact page
+- `assets/` - CSS, JS, images, and fonts
+- `vendor/` - Third-party libraries (Bootstrap, jQuery)
+
+## Contact Form
+
+The contact form uses Formspree.io for form handling in static hosting environment.
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+
