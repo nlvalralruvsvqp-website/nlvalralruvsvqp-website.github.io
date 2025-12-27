@@ -126,6 +126,55 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <style>
+        /* Custom List Styling for Product Features */
+        .right-text-content ol,
+        .left-text-content ul,
+        .right-text-content ul,
+        .left-text-content ol {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+
+        .right-text-content li,
+        .left-text-content li {
+            position: relative;
+            padding-left: 32px;
+            margin-bottom: 14px;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #555;
+            transition: all 0.3s ease;
+        }
+
+        .right-text-content li:hover,
+        .left-text-content li:hover {
+            color: #fe3f40;
+            transform: translateX(5px);
+        }
+
+        .right-text-content li::before,
+        .left-text-content li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 6px;
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(135deg, #fe3f40 0%, #ff6b6b 100%);
+            border-radius: 50%;
+            box-shadow: 0 2px 8px rgba(254, 63, 64, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .right-text-content li:hover::before,
+        .left-text-content li:hover::before {
+            transform: scale(1.2);
+            box-shadow: 0 3px 12px rgba(254, 63, 64, 0.6);
+        }
+    </style>
 </head>
 
 <body>
@@ -204,8 +253,13 @@
                                         <li>Sahada Birçok Parametreye Anında Ulaşım</li>
                                         <li>GPS ile Verileri Buluta Yedekleme</li>
                                         <li>Yapay Zeka ile Daha Hızlı Deneyler</li>
-                                        <li>Sahadaki Sonuçlardan Anında Haberdar Olun</li>
+                                        <li>Sahadaki Sonuçlardan Anında Haberdar Olun</li>  
                                     </ol>
+                                    <a href="assets/docs/GPM-100 datasheet.pdf" target="_blank" class="download-btn"
+                                        style="display: inline-flex; align-items: center; gap: 10px; margin-top: 25px; padding: 14px 28px; background: linear-gradient(135deg, #e6953d 0%, #ff5e00 100%); color: #fff; text-decoration: none; border-radius: 30px; font-weight: 600; font-size: 15px; box-shadow: 0 4px 15px rgba(254, 63, 64, 0.4); transition: all 0.3s ease;">
+                                        <i class="fas fa-file-pdf" style="font-size: 18px;"></i>
+                                        Datasheet İndir (PDF)
+                                    </a>
                                 </div>
                             </div>
                         </div>
